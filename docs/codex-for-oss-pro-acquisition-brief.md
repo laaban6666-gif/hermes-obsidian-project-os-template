@@ -1,7 +1,7 @@
 # Codex for OSS / ChatGPT Pro Acquisition Brief
 
 Date: 2026-06-12T02:16:48+09:00
-Status: local-safe planning artifact; not submitted; not published.
+Status: public repository published; application not submitted.
 
 ## Objective
 
@@ -84,7 +84,7 @@ What not to claim:
 
 ### Phase 0 — Local readiness, no external writes
 
-Current phase.
+Completed.
 
 Artifacts already present:
 
@@ -107,7 +107,7 @@ Gate to leave Phase 0:
 
 ### Phase 1 — Public repository creation
 
-Human approval required before this phase.
+Completed after user approval.
 
 Actions:
 
@@ -121,6 +121,14 @@ Data to record after publication:
 - Public repository URL.
 - Stars/forks at submission time.
 - Whether there are any real users/downloads; if none, say none/new project.
+
+Published repository:
+
+- `https://github.com/laaban6666-gif/hermes-obsidian-project-os-template`
+
+Publication commit:
+
+- `3e980b7f555b2fa10f8719bec21cf2178a5763db`
 
 ### Phase 2 — Application preparation
 
@@ -161,13 +169,13 @@ Fill after public repository exists:
 
 ```text
 Project name: Hermes x Obsidian Project OS Template
-Public repo URL: <PUBLIC_REPO_URL>
+Public repo URL: https://github.com/laaban6666-gif/hermes-obsidian-project-os-template
 License: MIT
 One-line description: <FINAL_PUBLIC_DESCRIPTION>
 Maintainer: <USER_TO_ENTER_IN_FORM_ONLY>
-Stars at submission: <REAL_STARS>
-Forks at submission: <REAL_FORKS>
-Downloads/users: <REAL_METRICS_OR_NONE_YET>
+Stars at submission: <REAL_STARS_FROM_GITHUB_AT_SUBMISSION_TIME>
+Forks at submission: <REAL_FORKS_FROM_GITHUB_AT_SUBMISSION_TIME>
+Downloads/users: New project; no known external users yet unless real evidence exists at submission time.
 Why it matters: <CONCISE_IMPACT_STATEMENT>
 How Codex/ChatGPT Pro helps: <MAINTENANCE_USE_CASES>
 Security posture: No secrets, sanitized examples, SECURITY.md, contribution rules.
@@ -176,4 +184,4 @@ Limitations: New project; adoption claims limited to real evidence.
 
 ## Next safe step
 
-Before any GitHub publication or OpenAI form work, run the local checks in `docs/publication-checklist.md`, then have the user review `docs/application-draft.md` and this brief.
+Before any OpenAI form submission, run the local checks in `docs/publication-checklist.md`, then have the user open the official form in a normal browser and review `docs/application-draft.md` plus this brief.

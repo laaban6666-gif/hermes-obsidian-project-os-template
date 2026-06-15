@@ -99,7 +99,7 @@ Use placeholders such as `<PUBLIC_REPO_URL>`, `<MAINTAINER_NAME>`, or `<OPENAI_O
 
 ## Application-readiness status
 
-Current status: **local draft only**.
+Current status: **public initial version**.
 
 Done:
 
@@ -109,11 +109,10 @@ Done:
 - Application draft prepared with placeholders.
 - Publication checklist prepared.
 - Codex for OSS / ChatGPT Pro acquisition brief prepared from a fresh safe verification run.
+- Public repository published at `https://github.com/laaban6666-gif/hermes-obsidian-project-os-template`.
 
 Not done:
 
-- No GitHub repository has been created.
-- No push has been made.
 - No OpenAI form has been submitted.
 - No personal information or account-specific identifiers have been entered.
 

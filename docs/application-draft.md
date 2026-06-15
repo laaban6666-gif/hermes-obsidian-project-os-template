@@ -8,7 +8,7 @@ Hermes x Obsidian Project OS Template
 
 ## Public repository URL
 
-`<PUBLIC_REPO_URL>`
+`https://github.com/laaban6666-gif/hermes-obsidian-project-os-template`
 
 ## Maintainer
 
@@ -22,9 +22,7 @@ Do not store this value in the repository.
 
 ## Stars / downloads / usage metrics
 
-`<PROJECT_METRICS_TO_BE_FILLED_AFTER_PUBLICATION>`
-
-If the project is newly published, say so honestly. Do not invent stars, downloads, forks, users, or dependents.
+Newly published project. At initial publication: use the real GitHub values shown at submission time. Do not invent stars, downloads, forks, users, or dependents.
 
 ## Short project description
 
