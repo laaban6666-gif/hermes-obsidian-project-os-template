@@ -1,0 +1,22 @@
+# Secrets and local configuration
+.env
+.env.*
+*.env
+*secret*
+*secrets*
+*token*
+*credentials*
+*.key
+*.pem
+
+# OS/editor clutter
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Local generated files
+.cache/
+tmp/
+temp/
+*.log
