@@ -31,6 +31,18 @@ Use it when project work is scattered across chats, issues, local notes, and hal
 
 That is enough to start: one project note, one AI team room, and one readiness check.
 
+## Visual tour
+
+Prefer diagrams over screenshots for public docs. This repository includes a privacy-safe [Visual Tour](docs/visual-tour.md) with generic SVG examples that contain no private notes, account details, customer data, credentials, or real identifiers.
+
+![Starter vault map](assets/visual-tour/starter-vault-map.svg)
+
+- [Starter vault map](assets/visual-tour/starter-vault-map.svg): shows how command notes, project notes, templates, runbooks, decisions, and archive folders fit together.
+- [AI Team Room flow](assets/visual-tour/ai-team-room-flow.svg): shows the human → coordinator → implementer → reviewer → approval-gate loop.
+- [PR readiness gate](assets/visual-tour/pr-readiness-gate.svg): shows the scope, checks, safety boundary, and maintainer handoff before publication.
+
+See `docs/visual-tour.md` for the full explanation and suggested starter-vault usage.
+
 ## Why this exists
 
 Many AI workflows are either too ad-hoc or too tied to one person's private notes. This template turns a real Hermes/Obsidian operating pattern into a reusable, public, secret-free starter kit.
@@ -70,6 +82,11 @@ Many AI workflows are either too ad-hoc or too tied to one person's private note
 │   ├── sample-pr-readiness.md
 │   ├── walkthrough-oss-docs-improvement.md
 │   └── vault-structure.md
+├── assets/
+│   └── visual-tour/
+│       ├── ai-team-room-flow.svg
+│       ├── pr-readiness-gate.svg
+│       └── starter-vault-map.svg
 ├── starter-vault/
 │   ├── 00_Command/
 │   │   ├── AI Team Room.md
@@ -89,7 +106,8 @@ Many AI workflows are either too ad-hoc or too tied to one person's private note
 │   │   └── Sample Decision.md
 │   └── README.md
 └── docs/
-    └── publication-checklist.md
+    ├── publication-checklist.md
+    └── visual-tour.md
 ```
 
 ## Quick start
@@ -143,6 +161,8 @@ See `examples/vault-structure.md` for a more detailed sanitized example.
 ## End-to-end walkthrough
 
 For a concrete example, see `examples/walkthrough-oss-docs-improvement.md`.
+
+For a diagram-first overview, see `docs/visual-tour.md`.
 
 It shows how a small OSS README improvement moves through:
 
@@ -206,7 +226,7 @@ Privacy note:
 ## Roadmap
 
 - Add a small import script or checklist generator after user approval.
-- Add screenshots or diagrams after checking that they contain no private data.
+- Add more sanitized diagrams or placeholder-only mockups after checking that they contain no private data.
 - Collect real usage feedback and improve templates.
 
 ## License
