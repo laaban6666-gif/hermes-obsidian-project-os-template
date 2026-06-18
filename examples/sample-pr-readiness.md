@@ -50,7 +50,7 @@ Run local file-list and secret-pattern checks before publishing.
 Please check:
 
 - Are examples concrete enough without exposing private details?
-- Is the OpenAI application draft honest about unknowns?
+- Are private planning drafts kept out of the public repository?
 - Is the project valuable beyond any private planning or promotion goal?
 
 ## Decision notes
