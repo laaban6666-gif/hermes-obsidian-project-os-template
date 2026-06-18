@@ -43,6 +43,23 @@ Prefer diagrams over screenshots for public docs. This repository includes a pri
 
 See `docs/visual-tour.md` for the full explanation and suggested starter-vault usage.
 
+## Release / ZIP package
+
+Current documented version: **0.1.0** (see `VERSION`).
+
+Recommended paths:
+
+- **Use it now:** choose **Code → Download ZIP** on GitHub, unzip the repository, and open `starter-vault/` as an Obsidian vault.
+- **Future maintainer package:** maintainers may create a versioned `starter-vault` ZIP after running the release safety checks. Do not assume a GitHub Release exists unless one is visible in the repository's Releases page.
+
+Release references:
+
+- `docs/release.md`: maintainer guide for local release review and optional starter-vault ZIP packaging.
+- `CHANGELOG.md`: public change history and planned/current v0.1.0 contents.
+- `VERSION`: current documented package version.
+
+Release assets should stay generic and public-safe. Before adding screenshots or uploaded ZIP assets, check for private notes, credentials, real account identifiers, customer data, and production-only details.
+
 ## Why this exists
 
 Many AI workflows are either too ad-hoc or too tied to one person's private notes. This template turns a real Hermes/Obsidian operating pattern into a reusable, public, secret-free starter kit.
@@ -60,6 +77,8 @@ Many AI workflows are either too ad-hoc or too tied to one person's private note
 .
 ├── README.md
 ├── LICENSE
+├── VERSION
+├── CHANGELOG.md
 ├── SECURITY.md
 ├── CONTRIBUTING.md
 ├── .github/
@@ -107,6 +126,7 @@ Many AI workflows are either too ad-hoc or too tied to one person's private note
 │   └── README.md
 └── docs/
     ├── publication-checklist.md
+    ├── release.md
     └── visual-tour.md
 ```
 
@@ -217,6 +237,7 @@ Done:
 - Sanitized examples prepared.
 - Starter Obsidian vault added.
 - Publication checklist prepared.
+- Release packaging documentation prepared.
 
 Privacy note:
 
