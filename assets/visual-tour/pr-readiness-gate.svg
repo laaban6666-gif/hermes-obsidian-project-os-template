@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="540" viewBox="0 0 960 540" role="img" aria-labelledby="title desc">
+  <title id="title">PR readiness gate</title>
+  <desc id="desc">A public-safe checklist diagram showing the checks that should pass before a change is considered ready for maintainer approval.</desc>
+  <defs>
+    <style>
+      .bg { fill: #f8fafc; }
+      .panel { fill: #ffffff; stroke: #cbd5e1; stroke-width: 2; rx: 22; }
+      .pass { fill: #dcfce7; stroke: #16a34a; }
+      .warn { fill: #fef3c7; stroke: #d97706; }
+      .stop { fill: #ffe4e6; stroke: #e11d48; }
+      .text { font-family: Inter, Arial, sans-serif; fill: #0f172a; }
+      .muted { fill: #475569; font-size: 17px; }
+      .label { font-size: 21px; font-weight: 700; }
+      .small { font-size: 15px; }
+      .arrow { stroke: #64748b; stroke-width: 2.5; fill: none; marker-end: url(#arrowhead); }
+      .check { fill: #16a34a; font-size: 24px; font-weight: 800; }
+    </style>
+    <marker id="arrowhead" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#64748b" />
+    </marker>
+  </defs>
+
+  <rect class="bg" width="960" height="540" />
+  <text class="text" x="48" y="58" font-size="32" font-weight="800">PR readiness gate</text>
+  <text class="text muted" x="48" y="88">A generic publication review for documentation, templates, and starter-vault changes.</text>
+
+  <rect class="panel" x="62" y="140" width="205" height="106" rx="22" />
+  <text class="check" x="88" y="178">✓</text>
+  <text class="text label" x="122" y="178">Scope</text>
+  <text class="text small" x="88" y="208">Goal and impact are</text>
+  <text class="text small" x="88" y="230">clear to reviewers.</text>
+
+  <rect class="panel" x="330" y="140" width="205" height="106" rx="22" />
+  <text class="check" x="356" y="178">✓</text>
+  <text class="text label" x="390" y="178">Checks</text>
+  <text class="text small" x="356" y="208">Links, Markdown, and</text>
+  <text class="text small" x="356" y="230">assets are verified.</text>
+
+  <rect class="panel stop" x="598" y="140" width="300" height="106" rx="22" />
+  <text class="text label" x="628" y="178">Safety boundary</text>
+  <text class="text small" x="628" y="208">No secrets, personal data,</text>
+  <text class="text small" x="628" y="230">private screenshots, or account IDs.</text>
+
+  <path class="arrow" d="M 267 193 L 330 193" />
+  <path class="arrow" d="M 535 193 L 598 193" />
+
+  <rect class="panel warn" x="180" y="334" width="260" height="112" rx="22" />
+  <text class="text label" x="214" y="372">If blocked</text>
+  <text class="text small" x="214" y="402">Revise locally, document</text>
+  <text class="text small" x="214" y="426">risk, and rerun checks.</text>
+
+  <rect class="panel pass" x="520" y="334" width="260" height="112" rx="22" />
+  <text class="text label" x="554" y="372">If ready</text>
+  <text class="text small" x="554" y="402">Hand off for maintainer</text>
+  <text class="text small" x="554" y="426">review and approval.</text>
+
+  <path class="arrow" d="M 748 246 C 748 296, 681 316, 650 334" />
+  <path class="arrow" d="M 748 246 C 690 292, 402 298, 310 334" />
+
+  <rect x="62" y="484" width="836" height="34" rx="17" fill="#e2e8f0" />
+  <text class="text small" x="88" y="506">Use with pr-readiness notes before opening, merging, publishing, or asking others to review a change.</text>
+</svg>

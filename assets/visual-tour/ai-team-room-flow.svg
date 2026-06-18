@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="540" viewBox="0 0 960 540" role="img" aria-labelledby="title desc">
+  <title id="title">AI team room flow</title>
+  <desc id="desc">A public-safe workflow diagram for moving an AI-assisted task from human intent through coordinator, implementer, reviewer, and final human approval.</desc>
+  <defs>
+    <style>
+      .bg { fill: #f8fafc; }
+      .card { fill: #ffffff; stroke: #cbd5e1; stroke-width: 2; rx: 20; }
+      .human { fill: #e0f2fe; stroke: #0284c7; }
+      .coord { fill: #dcfce7; stroke: #16a34a; }
+      .impl { fill: #fef3c7; stroke: #d97706; }
+      .review { fill: #ede9fe; stroke: #7c3aed; }
+      .gate { fill: #ffe4e6; stroke: #e11d48; }
+      .text { font-family: Inter, Arial, sans-serif; fill: #0f172a; }
+      .muted { fill: #475569; font-size: 17px; }
+      .label { font-size: 21px; font-weight: 700; }
+      .small { font-size: 15px; }
+      .arrow { stroke: #64748b; stroke-width: 2.6; fill: none; marker-end: url(#arrowhead); }
+      .loop { stroke: #94a3b8; stroke-width: 2.2; fill: none; stroke-dasharray: 7 7; marker-end: url(#arrowhead); }
+    </style>
+    <marker id="arrowhead" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#64748b" />
+    </marker>
+  </defs>
+
+  <rect class="bg" width="960" height="540" />
+  <text class="text" x="48" y="58" font-size="32" font-weight="800">AI Team Room flow</text>
+  <text class="text muted" x="48" y="88">A generic handoff loop for local drafting, review, and human-controlled publication.</text>
+
+  <rect class="card human" x="56" y="156" width="170" height="130" rx="20" />
+  <text class="text label" x="82" y="194">Human</text>
+  <text class="text small" x="82" y="222">Sets intent</text>
+  <text class="text small" x="82" y="246">Defines blockers</text>
+
+  <rect class="card coord" x="278" y="156" width="170" height="130" rx="20" />
+  <text class="text label" x="304" y="194">Coordinator</text>
+  <text class="text small" x="304" y="222">Scopes task</text>
+  <text class="text small" x="304" y="246">Routes roles</text>
+
+  <rect class="card impl" x="500" y="156" width="170" height="130" rx="20" />
+  <text class="text label" x="526" y="194">Implementer</text>
+  <text class="text small" x="526" y="222">Edits locally</text>
+  <text class="text small" x="526" y="246">Records files</text>
+
+  <rect class="card review" x="722" y="156" width="170" height="130" rx="20" />
+  <text class="text label" x="748" y="194">Reviewer</text>
+  <text class="text small" x="748" y="222">Runs checks</text>
+  <text class="text small" x="748" y="246">Flags risks</text>
+
+  <path class="arrow" d="M 226 221 L 278 221" />
+  <path class="arrow" d="M 448 221 L 500 221" />
+  <path class="arrow" d="M 670 221 L 722 221" />
+
+  <rect class="card gate" x="280" y="360" width="400" height="86" rx="20" />
+  <text class="text label" x="316" y="394">Human approval gate</text>
+  <text class="text small" x="316" y="422">Merge, publish, deploy, or disclose only after explicit approval.</text>
+
+  <path class="arrow" d="M 807 286 C 807 360, 690 403, 680 403" />
+  <path class="loop" d="M 280 403 C 150 403, 118 330, 141 286" />
+  <text class="text small" x="92" y="354" fill="#475569">revise if blocked</text>
+
+  <rect x="56" y="478" width="836" height="34" rx="17" fill="#e2e8f0" />
+  <text class="text small" x="82" y="500">Use with AI Team Room notes: each role states actions, evidence, assumptions, and gate status.</text>
+</svg>
