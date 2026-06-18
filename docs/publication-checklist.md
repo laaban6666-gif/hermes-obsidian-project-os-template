@@ -20,7 +20,7 @@ Use this before publishing or updating a public GitHub repository.
 Run these checks locally before any public repository creation or update. They are designed to be safe: read-only, no network, no credentials required.
 
 ```bash
-cd /root/codex-for-oss-project-os-template
+cd <REPO_PATH>
 
 # File list check: review the exact files that would become public.
 find . -type f | sort
@@ -43,7 +43,7 @@ import re, sys
 patterns = {
     'env assignment': re.compile(r'(?i)\b[A-Z0-9_]*(TOKEN|SECRET|KEY|PASSWORD|DSN)\s*='),
     'private key': re.compile(r'-----BEGIN [A-Z ]*PRIVATE KEY-----'),
-    'openai key': re.compile(r'sk-[A-Za-z0-9_-]{20,}'),
+    'api key shape': re.compile(r'sk-[A-Za-z0-9_-]{20,}'),
     'github token': re.compile(r'gh[pousr]_[A-Za-z0-9_]{20,}'),
 }
 allowed_placeholder_words = ('<PUBLIC_REPO_URL>', '<MAINTAINER')
@@ -82,5 +82,5 @@ Manual checks after the commands:
 
 ## 5. Keep private planning private
 
-- [ ] Do not commit grant applications, form answers, private strategy notes, or account-specific identifiers.
-- [ ] Keep those drafts in a private workspace, not in this public template repository.
+- [ ] Do not commit private strategy notes, form answers, customer details, or account-specific identifiers.
+- [ ] Keep non-public drafts in a private workspace, not in this public template repository.

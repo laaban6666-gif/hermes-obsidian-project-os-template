@@ -10,7 +10,7 @@
 
 - Added reusable project, decision, PR, routing, and cron templates.
 - Added sanitized examples.
-- Added documentation for publication and application readiness.
+- Added documentation for publication readiness.
 
 ## How it was implemented
 
