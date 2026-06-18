@@ -51,7 +51,7 @@ Please check:
 
 - Are examples concrete enough without exposing private details?
 - Is the OpenAI application draft honest about unknowns?
-- Is the project valuable beyond the support application?
+- Is the project valuable beyond any private planning or promotion goal?
 
 ## Decision notes
 
