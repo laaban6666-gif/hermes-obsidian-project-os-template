@@ -10,7 +10,7 @@ A sanitized Obsidian vault layout for AI-assisted project operations.
 10_Projects/
   Project A.md
   Project B.md
-  Codex for OSS Preparation.md
+  Public Template Project.md
 
 20_Business/
   Customer Hypotheses.md

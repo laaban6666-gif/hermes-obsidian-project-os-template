@@ -8,8 +8,6 @@ It is designed for solo founders, maintainers, and small teams who want an AI-as
 
 Many AI workflows are either too ad-hoc or too tied to one person's private notes. This template turns a real Hermes/Obsidian operating pattern into a reusable, public, secret-free starter kit.
 
-It is also being prepared as an honest OSS candidate for an OpenAI Codex for OSS / open-source maintainer support application. The project should be useful even if no support is granted.
-
 ## Who it is for
 
 - Solo founders running several technical and business projects.
@@ -37,10 +35,6 @@ It is also being prepared as an honest OSS candidate for an OpenAI Codex for OSS
 │   ├── sample-pr-readiness.md
 │   └── vault-structure.md
 └── docs/
-    ├── oss-candidate-comparison.md
-    ├── openai-codex-for-oss-research.md
-    ├── codex-for-oss-pro-acquisition-brief.md
-    ├── application-draft.md
     └── publication-checklist.md
 ```
 
@@ -95,7 +89,7 @@ Never put these into an Obsidian vault or public repository:
 - production URLs that should not be public,
 - screenshots containing account details.
 
-Use placeholders such as `<PUBLIC_REPO_URL>`, `<MAINTAINER_NAME>`, or `<OPENAI_ORG_ID_TO_BE_ENTERED_BY_USER>` when preparing drafts.
+Use placeholders such as `<PUBLIC_REPO_URL>` or `<MAINTAINER_NAME>` when preparing public drafts. Keep application-specific or account-specific form answers outside the public repository.
 
 ## Application-readiness status
 
@@ -106,15 +100,13 @@ Done:
 - OSS theme selected.
 - README and templates drafted.
 - Sanitized examples prepared.
-- Application draft prepared with placeholders.
 - Publication checklist prepared.
-- Codex for OSS / ChatGPT Pro acquisition brief prepared from a fresh safe verification run.
 - Public repository published at `https://github.com/laaban6666-gif/hermes-obsidian-project-os-template`.
 
-Not done:
+Privacy note:
 
-- No OpenAI form has been submitted.
-- No personal information or account-specific identifiers have been entered.
+- Grant/application drafts and form answers are intentionally kept outside this public repository.
+- No personal information or account-specific identifiers are stored here.
 
 ## Roadmap
 

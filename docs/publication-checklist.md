@@ -1,13 +1,11 @@
 # Publication Checklist
 
-Use this after waking up, before creating a public GitHub repository or submitting any form.
+Use this before publishing or updating a public GitHub repository.
 
 ## 1. Review local files
 
 - [ ] Read `README.md`.
 - [ ] Read `SECURITY.md`.
-- [ ] Read `docs/openai-codex-for-oss-research.md`.
-- [ ] Read `docs/application-draft.md`.
 - [ ] Confirm examples are safe to publish.
 
 ## 2. Choose public scope
@@ -19,7 +17,7 @@ Use this after waking up, before creating a public GitHub repository or submitti
 
 ## 3. Run local safety checks
 
-Run these checks locally before any public repository creation or form submission. They are designed to be safe: read-only, no network, no credentials required.
+Run these checks locally before any public repository creation or update. They are designed to be safe: read-only, no network, no credentials required.
 
 ```bash
 cd /root/codex-for-oss-project-os-template
@@ -48,7 +46,7 @@ patterns = {
     'openai key': re.compile(r'sk-[A-Za-z0-9_-]{20,}'),
     'github token': re.compile(r'gh[pousr]_[A-Za-z0-9_]{20,}'),
 }
-allowed_placeholder_words = ('<OPENAI_ORG_ID_TO_BE_ENTERED_BY_USER', '<PROJECT_METRICS', '<PUBLIC_REPO_URL>', '<MAINTAINER')
+allowed_placeholder_words = ('<PUBLIC_REPO_URL>', '<MAINTAINER')
 failures = []
 for path in sorted(Path('.').rglob('*')):
     if not path.is_file() or path.suffix not in {'.md', '.txt'}:
@@ -73,7 +71,6 @@ Manual checks after the commands:
 
 - [ ] Confirm all `<PLACEHOLDER>` values are still placeholders, not real account data.
 - [ ] Confirm no `.env`, token file, customer record, or private screenshot is present.
-- [ ] Confirm `docs/application-draft.md` states real metrics only and does not imply OpenAI approval.
 - [ ] Confirm the user has explicitly approved the repository name and publication scope.
 
 ## 4. Publish only after review
@@ -83,15 +80,7 @@ Manual checks after the commands:
 - [ ] Confirm the public repo renders correctly.
 - [ ] Add a first issue or roadmap if desired.
 
-## 5. Application preparation
+## 5. Keep private planning private
 
-- [ ] Open the official OpenAI form in a normal browser session.
-- [ ] Confirm the form is actually available.
-- [ ] Fill only real values.
-- [ ] Do not inflate metrics.
-- [ ] Do not paste secrets into the repository.
-- [ ] Submit only after final human consent.
-
-## 6. If the project is too new
-
-If the form appears to expect established adoption, wait. Publish the project, improve it, share it honestly, and apply later with real usage evidence.
+- [ ] Do not commit grant applications, form answers, private strategy notes, or account-specific identifiers.
+- [ ] Keep those drafts in a private workspace, not in this public template repository.

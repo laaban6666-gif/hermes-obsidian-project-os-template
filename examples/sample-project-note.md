@@ -15,7 +15,7 @@ Create a reusable starter kit that helps people run AI-assisted projects with cl
 ## Current priority
 
 - Priority: 1
-- Why now: Prepare a real OSS asset before any support application.
+- Why now: Prepare a reusable public template that can help other teams.
 
 ## Scope
 
@@ -31,7 +31,6 @@ Create a reusable starter kit that helps people run AI-assisted projects with cl
 ### Out of scope
 
 - Public repository creation before human review.
-- OpenAI form submission.
 - Private account details.
 - Production automation.
 
@@ -46,9 +45,8 @@ Allowed without extra approval:
 Human approval required:
 
 - GitHub publication,
-- form submission,
 - adding maintainer identity,
-- adding account-specific identifiers.
+- adding account-specific identifiers or private strategy notes.
 
 ## Next actions
 
