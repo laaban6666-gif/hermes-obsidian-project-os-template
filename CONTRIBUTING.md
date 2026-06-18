@@ -26,4 +26,4 @@ Before opening a PR:
 1. Can a new user understand what to copy and where to put it?
 2. Does the example accidentally reveal private operations?
 3. Is the workflow safe for local drafting before public publishing?
-4. Does this make the project more credible as OSS, not just as an application artifact?
+4. Does this make the project more useful as OSS, not just as a private workflow snapshot?
