@@ -1,8 +1,8 @@
 # Hermes x Obsidian Project OS Template
 
-A practical, public-safe starter kit for running small projects with **Hermes Agent + Obsidian + GitHub-style review habits**.
+A public-safe starter kit for solo founders, OSS maintainers, and small teams who want a working **Hermes Agent + Obsidian + GitHub-style project workflow in about 3 minutes**.
 
-Use it when project work is scattered across chats, issues, local notes, and half-remembered decisions. The goal is not to create a heavy process; it is to give solo founders, maintainers, and small teams a lightweight operating system they can open, copy, and use in minutes.
+Use it when project work is scattered across chats, issues, local notes, and half-remembered decisions. The goal is not to create a heavy process; it is to give you a lightweight operating system you can download, copy into a vault, and use immediately.
 
 ## Before / After
 
@@ -22,11 +22,12 @@ Use it when project work is scattered across chats, issues, local notes, and hal
 
 ## 3-minute usage example
 
-1. **Open the starter vault:** in Obsidian, choose **Open folder as vault** and select `starter-vault/`.
-2. **Create a project note:** duplicate `starter-vault/30_Templates/project-note.md` into `starter-vault/10_Projects/<PROJECT_NAME>.md`.
-3. **Set the work boundary:** fill in goal, in-scope items, out-of-scope items, and actions requiring human approval.
-4. **Route AI work:** open `starter-vault/00_Command/AI Team Room.md` and assign a coordinator, implementer, and reviewer for the next task.
-5. **Before publishing:** duplicate `starter-vault/30_Templates/pr-readiness.md`, check tests/safety, and record anything that should block the PR.
+1. **Get the files:** download the repository ZIP or clone it locally.
+2. **Open the starter vault:** in Obsidian, choose **Open folder as vault** and select `starter-vault/`.
+3. **Create a project note:** duplicate `starter-vault/30_Templates/project-note.md` into `starter-vault/10_Projects/<PROJECT_NAME>.md`.
+4. **Set the work boundary:** fill in goal, in-scope items, out-of-scope items, and actions requiring human approval.
+5. **Route AI work:** open `starter-vault/00_Command/AI Team Room.md` and assign a coordinator, implementer, and reviewer for the next task.
+6. **Before publishing:** duplicate `starter-vault/30_Templates/pr-readiness.md`, check tests/safety, and record anything that should block the PR.
 
 That is enough to start: one project note, one AI team room, and one readiness check.
 
@@ -49,6 +50,12 @@ Many AI workflows are either too ad-hoc or too tied to one person's private note
 ├── LICENSE
 ├── SECURITY.md
 ├── CONTRIBUTING.md
+├── .github/
+│   ├── ISSUE_TEMPLATE/
+│   │   ├── bug_report.md
+│   │   ├── docs_improvement.md
+│   │   └── template_request.md
+│   └── pull_request_template.md
 ├── templates/
 │   ├── project-note.md
 │   ├── decision-log.md
@@ -61,6 +68,7 @@ Many AI workflows are either too ad-hoc or too tied to one person's private note
 │   ├── sample-ai-team-room.md
 │   ├── sample-project-note.md
 │   ├── sample-pr-readiness.md
+│   ├── walkthrough-oss-docs-improvement.md
 │   └── vault-structure.md
 ├── starter-vault/
 │   ├── 00_Command/
@@ -86,14 +94,30 @@ Many AI workflows are either too ad-hoc or too tied to one person's private note
 
 ## Quick start
 
-Option A — use the vault directly:
+Option A — Download ZIP and open the starter vault:
+
+1. On GitHub, select **Code → Download ZIP**.
+2. Unzip the repository somewhere local.
+3. Open Obsidian.
+4. Select **Open folder as vault**.
+5. Choose the unzipped `starter-vault/` directory.
+6. Duplicate the sample notes and replace placeholders like `<PROJECT_NAME>`.
+
+Option B — Copy `starter-vault/` into your notes:
+
+1. Copy the full `starter-vault/` directory into the folder where you keep Obsidian vaults.
+2. Rename it for your project or team, if useful.
+3. Open the copied folder in Obsidian.
+4. Keep `30_Templates/` as your reusable templates and put active work in `10_Projects/`.
+
+Option C — use the repository checkout directly:
 
 1. Open Obsidian.
 2. Select **Open folder as vault**.
 3. Choose this repository's `starter-vault/` directory.
 4. Duplicate the sample notes and replace placeholders like `<PROJECT_NAME>`.
 
-Option B — copy templates into an existing vault:
+Option D — copy templates into an existing vault:
 
 1. Copy the `templates/` files into your Obsidian vault.
 2. Create one project note from `templates/project-note.md`.
@@ -115,6 +139,20 @@ Option B — copy templates into an existing vault:
 ```
 
 See `examples/vault-structure.md` for a more detailed sanitized example.
+
+## End-to-end walkthrough
+
+For a concrete example, see `examples/walkthrough-oss-docs-improvement.md`.
+
+It shows how a small OSS README improvement moves through:
+
+- a project note,
+- an AI Team Room,
+- a decision log,
+- a PR readiness check,
+- a final PR handoff.
+
+The walkthrough is intentionally generic and public-safe: it uses placeholders, avoids private account details, and keeps publication behind human approval.
 
 ## Hermes Agent usage pattern
 
