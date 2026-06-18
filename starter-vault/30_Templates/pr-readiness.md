@@ -8,11 +8,11 @@
 
 ## What changed
 
-- 
+-
 
 ## How it was implemented
 
-- 
+-
 
 ## Tests / checks run
 
@@ -47,7 +47,7 @@ Details:
 
 Please check:
 
-- 
+-
 
 ## Decision notes
 

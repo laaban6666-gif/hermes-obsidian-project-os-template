@@ -21,17 +21,17 @@ What are we trying to make better, and for whom?
 
 ### In scope
 
-- 
+-
 
 ### Out of scope
 
-- 
+-
 
 ## Safety boundaries
 
 Actions allowed without extra approval:
 
-- 
+-
 
 Actions requiring human approval:
 
@@ -44,19 +44,19 @@ Actions requiring human approval:
 
 ## Next actions
 
-1. 
-2. 
-3. 
+1.
+2.
+3.
 
 ## Decisions
 
 Link to decision logs:
 
-- 
+-
 
 ## Open questions
 
-- 
+-
 
 ## Progress log
 

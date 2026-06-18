@@ -43,7 +43,7 @@ Why this option is best enough now.
 
 ## Risks
 
-- 
+-
 
 ## Rollback / revisit trigger
 

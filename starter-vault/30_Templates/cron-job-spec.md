@@ -30,7 +30,7 @@ What should this scheduled job accomplish?
 
 Allowed:
 
-- 
+-
 
 Requires human approval:
 

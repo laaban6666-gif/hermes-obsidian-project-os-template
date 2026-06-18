@@ -20,7 +20,7 @@ Use this before publishing or updating a public GitHub repository.
 Run these checks locally before any public repository creation or update. They are designed to be safe: read-only, no network, no credentials required.
 
 ```bash
-cd /root/codex-for-oss-project-os-template
+cd <REPO_PATH>
 
 # File list check: review the exact files that would become public.
 find . -type f | sort
